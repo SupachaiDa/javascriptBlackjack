@@ -1,0 +1,38 @@
+.container {
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    width: 75%;
+}
+.game-board-flex , .blackjack-panel{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: url('https://i.ibb.co/1JrTXQB/greennn.jpg');
+}
+.blackjack-panel div {
+    padding: 10px;
+}
+.game-board-flex img {
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+}
+.game-board-flex {
+    color: #ffffff;
+}
+.your-box , .dealer-box{
+    padding: 10px;
+    height: 350px;
+    width: 50%;
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+table , tr , td {
+    border: 1px solid black;
+    padding: 10px;
+}

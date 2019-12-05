@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/style.css">
+    <title>Black Jack</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BlackJack Game</h1>
+        <h2><span id="blackjack-result">Let's Play</span></h2>
+        <div class="game-board-flex">
+            <div class="your-box" id="your-box">
+                <h3 style="display: inline;">You : </h3><h2 style="display: inline;"><span id="your-blackjack-result">0</span></h2><br>
+            </div>
+            <div class="dealer-box" id="dealer-box">
+                    <h3 style="display: inline;">Dealer : </h3><h2 style="display: inline;"><span id="dealer-blackjack-result">0</span></h2><br>
+            </div>
+        </div>
+        <div class="blackjack-panel"> 
+            <div>
+                <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+                <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button">Stand</button>
+                <button class="btn-lg btn-danger mr-2" id="blackjack-deal-button">Deal</button>
+            </div>
+        </div>
+        <div class="score-board">
+            <table>
+                <tr>
+                    <td><h5>Wins</h5></td>
+                    <td><h5>Losses</h3></td>
+                    <td><h5>Draws</h5></td>
+                </tr>
+                <tr>
+                    <td><span id="win">0</span></td>
+                    <td><span id="loss">0</span></td>
+                    <td><span id="drew">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./static/javascript/app.js"></script>
+</body>
+</html>
